@@ -9,7 +9,7 @@ export default function Home() {
 
   const handleLogin = async () => {
 
-    const response = await fetch("http://127.0.0.1:8000/login", {
+    const response = await fetch("https://trendpeek-backend.onrender.com/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
